@@ -1,4 +1,4 @@
-package com.gagan.springsecurityfacebooklogin;
+package com.gagan.oauthlogin;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
