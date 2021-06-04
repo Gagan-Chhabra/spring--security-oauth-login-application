@@ -1,5 +1,5 @@
 # Description
-This is the basic structure to secure your web application behind the spring security using Oauth.
+This is the basic structure to secure your web application behind the spring security context using Oauth.
 Configuration provided for two popular social media and Exterprise application authorization servers.
 1. Google Authorization server
 2. Okta authorization server
