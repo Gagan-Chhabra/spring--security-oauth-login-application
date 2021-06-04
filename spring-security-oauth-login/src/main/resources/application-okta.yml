@@ -1,0 +1,17 @@
+spring:
+    security:
+        oauth2:
+            client:
+                registration:
+                    okta:
+                        authorization-grant-type: authorization_code
+                        client-id: __
+                        client-name: myalbum
+                        client-secret: __
+                        scope: openid, profile,email
+                provider:
+                    okta:
+                        authorization-uri: https://dev-55547389.okta.com/oauth2/default/v1/authorize
+                        token-uri: https://dev-55547389.okta.com/oauth2/default/v1/token
+                        user-info-uri: https://dev-55547389.okta.com/oauth2/default/v1/userinfo
+                        jwk-set-uri: https://dev-55547389.okta.com/oauth2/default/v1/keys

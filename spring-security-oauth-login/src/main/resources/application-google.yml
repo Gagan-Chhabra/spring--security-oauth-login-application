@@ -1,0 +1,11 @@
+spring:
+    security:
+        oauth2:
+            client:
+                registration:
+                    google:
+                        authorization-grant-type: authorization_code
+                        client-id: __
+                        client-name: myalbum
+                        client-secret: __
+                        scope: openid,profile,email
